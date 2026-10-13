@@ -1,0 +1,2 @@
+import { restaurant } from "../lib/restaurant.js";
+export default function handler(req,res){const item=typeof req.query?.item==="string"?req.query.item.slice(0,100):"";const message=item?"Assalamualaikum! I would like to order "+item+". Please confirm availability and price.":"Assalamualaikum! Please share the latest Butt Pizza & Food Corner menu and ordering information.";res.status(200).json({url:"https://wa.me/"+restaurant.phoneInternational+"?text="+encodeURIComponent(message)});}

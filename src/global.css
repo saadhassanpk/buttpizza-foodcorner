@@ -1,0 +1,2 @@
+@import "./base.css";
+*,:before,:after{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#12110e;color:#f7f0e5;font-family:var(--font-family-base)}button,input{font:inherit}a{color:inherit}img{max-width:100%}

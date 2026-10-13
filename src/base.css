@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&family=Barlow+Condensed:wght@500;600;700;800;900&display=swap');
+:root {
+  /* Overlay layers */
+  --z-overlay: 400;
+  --z-spotlight: 1000; /* Tutorial spotlights/guided help */
+  /* System layers */
+  --z-critical: 2000; /* Critical system notifications */
+  /* spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+}
+:root {
+  --background: #12110e;
+  --foreground: #f7f0e5;
+  --surface: #1c1a16;
+  --surface-foreground: #f7f0e5;
+  --sidebar: #1c1a16;
+  --sidebar-foreground: #f7f0e5;
+  --card: #23201a;
+  --card-foreground: #f7f0e5;
+  --popup: #26221b;
+  --popup-foreground: #fff7e9;
+  --primary: #ffb82e;
+  --primary-foreground: #18130b;
+  --secondary: #393127;
+  --secondary-foreground: #fff5e4;
+  --accent: #ffb82e;
+  --accent-foreground: #18130b;
+  --muted: #292720;
+  --muted-foreground: #ada598;
+  --success: #79ba71;
+  --success-foreground: #0d180c;
+  --error: #e06c56;
+  --error-foreground: #220d08;
+  --warning: #ffb82e;
+  --warning-foreground: #241b07;
+  --info: #9fbbb8;
+  --info-foreground: #15211f;
+  --info-hover: #bad0cd;
+  --info-active: #829e9a;
+  --border: #373027;
+  --font-family-base: 'DM Sans', sans-serif;
+  --font-family-display: 'Anton', Impact, sans-serif;
+  --font-family-monospace: ui-monospace, monospace;
+  --font-family-cursive: 'Barlow Condensed', sans-serif;
+  --shadow: 0 6px 20px rgba(0,0,0,.18);
+  --shadow-md: 0 15px 40px rgba(0,0,0,.28);
+  --shadow-lg: 0 30px 80px rgba(0,0,0,.42);
+  --shadow-focus: 0 0 0 3px rgba(255,184,46,.38);
+  --radius-sm: 5px;
+  --radius: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-full: 9999px;
+  --animation-duration-fast: 160ms;
+  --animation-duration-normal: 260ms;
+  --animation-duration-slow: 520ms;
+  --chart-color-1: #ffb82e;
+  --chart-color-2: #dd8640;
+  --chart-color-3: #b99d73;
+  --chart-color-4: #76948b;
+  --chart-color-5: #c5725b;
+}
+.dark {
+  --background: #12110e;
+  --foreground: #f7f0e5;
+  --surface: #1c1a16;
+  --surface-foreground: #f7f0e5;
+  --card: #23201a;
+  --card-foreground: #f7f0e5;
+  --popup: #26221b;
+  --popup-foreground: #fff7e9;
+  --primary: #ffb82e;
+  --primary-foreground: #18130b;
+  --secondary: #393127;
+  --secondary-foreground: #fff5e4;
+  --accent: #ffb82e;
+  --accent-foreground: #18130b;
+  --muted: #292720;
+  --muted-foreground: #ada598;
+  --border: #373027;
+}
