@@ -124,4 +124,3 @@ export function useScrollReveal(options: ScrollRevealOptions = {}) {
 
   return observe;
 }
-  127

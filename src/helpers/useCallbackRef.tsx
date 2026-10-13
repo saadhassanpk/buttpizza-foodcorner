@@ -21,4 +21,3 @@ export function useCallbackRef<T extends (...args: any[]) => any>(
     [],
   ) as T;
 }
-   24
